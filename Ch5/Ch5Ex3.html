@@ -1,0 +1,43 @@
+<!--
+PROGRAM DESCRIPTION: Calculate the volume of a room that is 12.5 feet long, 9.8 feet wide, and 10.5 feet high.
+NAME: Joseph Seaton
+CLASS: CSC 452.001
+DATE COMPLETED: 2/3/2016
+-->
+<!DOCTYPE html>
+<html lang="en">
+		<head>
+				<meta charset="utf-8"/>
+				<link rel="stylesheet" type="text/css" href="Ch5Ex3.css">
+				<title>Joseph Seaton</title>
+		</head>
+		<body>
+		
+		<section class="page-section numbers">
+				<div class="container">
+				<h1 id = "titleID"> Find the room volume! (Just hit the submit button)</h1>
+				
+				<form method="post" action="Ch5Ex3.php" onsubmit="return checkForm()" id="registration-form">
+				
+				<div class="field">
+						Length:<label for="Length"></label>
+						<input type="number" step="any" id="length" name="length" placeholder="12.5" autofocus="autofocus" />
+				</div>
+				<br>
+				
+				<div class="field">
+						Width:<label for="Width"></label>
+						<input type="number" step="any" id="width" name="width" placeholder="9.8"  />
+				</div>
+				<br>
+				
+				<div class="field">
+						Hight:<label for="Hight"></label>
+						<input type="number" step="any" id="hight" name="hight" placeholder="10.5" />
+				</div>
+				<br>
+				<div>
+						<button type="submit" id="submitButton">Submit</button>
+				</div>	
+		</body>
+<html>
