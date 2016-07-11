@@ -3,7 +3,7 @@
 
 // Defined as constants so that they can't be changed
 DEFINE ('DB_USER', 'cs452115');
-DEFINE ('DB_PASSWORD', 'fufAdyab');
+DEFINE ('DB_PASSWORD', 'youllneverknowheheheh');
 DEFINE ('DB_HOST', 'localhost');
 DEFINE ('DB_NAME', 'cs452115');
 
